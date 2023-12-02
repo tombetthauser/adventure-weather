@@ -22,6 +22,13 @@
             width: 95%;
         }
     }
+    .button {
+        padding: 5px 12px;
+        border: 3px outset lightgray;
+        background-color: lightgray;
+        cursor: pointer;
+        width: fit-content;
+    }
 </style>
 <script>
     function refreshPage() {
@@ -31,7 +38,7 @@
 <body>
     <h1>Tom &amp; Danny's favorite California Webcams 👀</h1>
 
-    <button onclick="refreshPage()">⟳ refresh page</button>
+    <div class="button" onclick="refreshPage()">⟳ Refresh Cameras</div>
 
     <h3>Mount Tam East</h3>
     <img src="https://cameras.alertcalifornia.org/public-camera-data/Axis-TamEast/latest-frame.jpg?"/>
